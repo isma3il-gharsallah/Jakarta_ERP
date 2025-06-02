@@ -62,20 +62,7 @@ This is a simple User Management Web Application developed using **Jakarta EE (J
 
 ## Project Structure
 
-src/main/webapp/
-├── resources/images/logo.png
-├── view/dashboard.xhtml
-├── view/users.xhtml
-├── component/configuration.xhtml
-├── component/logout.xhtml
-src/main/java/
-├── com/example/exercice/entity/User.java
-├── com/example/exercice/bean/UserBean.java
-├── com/example/exercice/bean/PageBean.java
-├── com/example/exercice/bean/DashboardBean.java
-├── com/example/exercice/service/UserService.java
-└── META-INF/persistence.xml
-
+![Structure](md_img/004.PNG)
 
 
 ## Author
