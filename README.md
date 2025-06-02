@@ -42,8 +42,8 @@ This is a simple User Management Web Application developed using **Jakarta EE (J
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/jsf-user-management.git
-    cd jsf-user-management
+    git clone https://github.com/isma3il-gharsallah/Jakarta_ERP
+    cd Jakarta_ERP
     ```
 
 2. Configure the database:
