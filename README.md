@@ -27,15 +27,15 @@ This is a simple User Management Web Application developed using **Jakarta EE (J
 
 ### Dashboard
 
-![Dashboard](./md_img/001.png)
+![Dashboard](/md_img/001.png)
 
 ### Users Page
 
-![Users](./md_img/001.png)
+![Users](/md_img/001.png)
 
 ### Configuration & Logout
 
-![Configuration](./md_img/001.png)
+![Configuration](/md_img/001.png)
 
 ## How to Run
 
