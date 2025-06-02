@@ -27,7 +27,7 @@ This is a simple User Management Web Application developed using **Jakarta EE (J
 
 ### Dashboard
 
-![Dashboard](/md_img/001.png)
+![Dashboard](md_img/001.png)
 
 ### Users Page
 
