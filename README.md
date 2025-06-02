@@ -67,7 +67,7 @@ This is a simple User Management Web Application developed using **Jakarta EE (J
 
 ## Author
 
-- [Ismail Gharsallah](https://github.com/isma3il-gharsallah)
+- [Ismail Gharsallah](https://www.linkedin.com/in/isma3il-gharsallah/)
 
 ---
 
