@@ -31,11 +31,11 @@ This is a simple User Management Web Application developed using **Jakarta EE (J
 
 ### Users Page
 
-![Users](md_img/001.PNG)
+![Users](md_img/002.PNG)
 
 ### Configuration & Logout
 
-![Configuration](md_img/001.PNG)
+![Configuration](md_img/003.PNG)
 
 ## How to Run
 
