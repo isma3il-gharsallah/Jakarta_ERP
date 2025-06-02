@@ -8,7 +8,7 @@ This is a simple User Management Web Application developed using **Jakarta EE (J
 
 ## Features
 
-- **Dashboard View**: Shows a dynamic doughnut chart representing Active, Inactive, and Pending users using Chart.js.
+- **Dashboard View**: Shows a dynamic doughnut chart representing Active and Inactive users using Chart.js.
 - **User Management**: Create and view users in a dynamic table.
 - **Navigation**: Sidebar with live navigation without page reload using AJAX.
 - **Responsive Layout**: Flexbox layout with styled topbar, sidebar, and content section.
@@ -27,23 +27,23 @@ This is a simple User Management Web Application developed using **Jakarta EE (J
 
 ### Dashboard
 
-![Dashboard](./md_img/001.png)
+![Dashboard](md_img/001.PNG)
 
 ### Users Page
 
-![Users](./md_img/001.png)
+![Users](md_img/002.PNG)
 
 ### Configuration & Logout
 
-![Configuration](./md_img/001.png)
+![Configuration](md_img/003.PNG)
 
 ## How to Run
 
 1. Clone the repository:
 
     ```bash
-    git clone https://github.com/your-username/jsf-user-management.git
-    cd jsf-user-management
+    git clone https://github.com/isma3il-gharsallah/Jakarta_ERP
+    cd Jakarta_ERP
     ```
 
 2. Configure the database:
@@ -75,6 +75,7 @@ src/main/java/
 ├── com/example/exercice/bean/DashboardBean.java
 ├── com/example/exercice/service/UserService.java
 └── META-INF/persistence.xml
+
 
 
 ## Author
