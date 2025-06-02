@@ -8,7 +8,7 @@ This is a simple User Management Web Application developed using **Jakarta EE (J
 
 ## Features
 
-- **Dashboard View**: Shows a dynamic doughnut chart representing Active, Inactive, and Pending users using Chart.js.
+- **Dashboard View**: Shows a dynamic doughnut chart representing Active and Inactive users using Chart.js.
 - **User Management**: Create and view users in a dynamic table.
 - **Navigation**: Sidebar with live navigation without page reload using AJAX.
 - **Responsive Layout**: Flexbox layout with styled topbar, sidebar, and content section.
