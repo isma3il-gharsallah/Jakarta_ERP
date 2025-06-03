@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:h="http://xmlns.jcp.org/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://xmlns.jcp.org/jsf/core">
+<h:head>
+    <title>User Calendar</title>
+</h:head>
+<h:body>
+
+    <div class="card">
+        <h:form>
+            <p:growl id="messages" showDetail="true"/>
+
+            <p:schedule id="schedule"
+                        value="#{scheduleJava8View.eventModel}"
+                        widgetVar="myschedule"
+                        timeZone="#{scheduleJava8View.serverTimeZone}"
+                        clientTimeZone="local">
+            </p:schedule>
+
+
+
+            <p:dialog widgetVar="eventDialog" header="Event Details" showEffect="fade" hideEffect="fade" modal="true">
+                <h:panelGrid id="eventDetails" columns="2" cellpadding="7">
+                    <p:outputLabel for="title" value="Title:" styleClass="font-bold"/>
+                    <p:inputText id="title" value="#{scheduleJava8View.event}" required="true"/>
+
+                    <p:outputLabel for="from" value="From:" styleClass="font-bold"/>
+                    <p:datePicker id="from" value="#{scheduleJava8View.event.startDate}" pattern="dd/MM/yyyy HH:mm"
+                                  showTime="true" appendTo="@(body)"/>
+
+                    <p:outputLabel for="to" value="To:" styleClass="font-bold"/>
+                    <p:datePicker id="to" value="#{scheduleJava8View.event.endDate}" pattern="dd/MM/yyyy HH:mm"
+                                  showTime="true" appendTo="@(body)"/>
+
+                    <p:outputLabel for="allDay" value="All Day:" styleClass="font-bold"/>
+                    <h:selectBooleanCheckbox id="allDay" value="#{scheduleJava8View.event.allDay}"/>
+                </h:panelGrid>
+
+                <div class="flex justify-content-between mt-3">
+                    <p:commandButton type="reset" value="Reset" styleClass="font-bold ui-button-outlined"/>
+                    <p:commandButton id="addButton" value="Save" action="#{scheduleJava8View.addEvent}"
+                                     oncomplete="PF('myschedule').update();PF('eventDialog').hide();"/>
+                </div>
+            </p:dialog>
+        </h:form>
+    </div>
+
+</h:body>
+</html>

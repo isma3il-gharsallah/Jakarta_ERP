@@ -8,7 +8,6 @@
 </h:head>
 <h:body>
 
-
     <p:panel header="Add User">
         <p:messages id="messages" />
 
@@ -37,9 +36,16 @@
             <p:column headerText="Email">
                 #{u.email}
             </p:column>
+            <p:column headerText="Actions">
+                <p:commandButton value="View Calendar"
+                                 action="#{scheduleJava8View.loadUserScheduleAndNavigate(u)}"
+                                 process="@this"
+                                 ajax="false"
+                                 immediate="true"
+                />
+            </p:column>
         </p:dataTable>
     </p:panel>
-
 
 </h:body>
 </html>
