@@ -5,11 +5,13 @@ This is a simple User Management Web Application developed using **Jakarta EE (J
 - Add and list users dynamically.
 - Navigate between **Dashboard** and **Users** views.
 - Display user statistics with a dynamic doughnut chart.
+- **NEW**: View user Check-In and Check-Out times in a dynamic calendar (schedule view).
 
 ## Features
 
 - **Dashboard View**: Shows a dynamic doughnut chart representing Active and Inactive users using Chart.js.
 - **User Management**: Create and view users in a dynamic table.
+- **User Calendar**: Display a user's check-in and check-out events in a PrimeFaces Schedule (Calendar) component.
 - **Navigation**: Sidebar with live navigation without page reload using AJAX.
 - **Responsive Layout**: Flexbox layout with styled topbar, sidebar, and content section.
 - **Dynamic Content**: Pages are loaded dynamically using `ui:include` and managed by a `PageBean`.
@@ -36,6 +38,14 @@ This is a simple User Management Web Application developed using **Jakarta EE (J
 ### Configuration & Logout
 
 ![Configuration](md_img/003.PNG)
+
+### User List with Calendar Option
+
+![User List](md_img/005.PNG)
+
+### User Calendar View
+
+![User Calendar](md_img/006.PNG)
 
 ## How to Run
 
@@ -64,11 +74,6 @@ This is a simple User Management Web Application developed using **Jakarta EE (J
 
 ![Structure](md_img/004.PNG)
 
-
 ## Author
 
 - [Ismail Gharsallah](https://www.linkedin.com/in/isma3il-gharsallah/)
-
----
-
-
